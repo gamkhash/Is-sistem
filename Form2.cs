@@ -16,7 +16,7 @@ namespace Electronic_store
         {
             InitializeComponent();
             Program.form2 = this;
-            Program.form3 = new Form3();
+            Program.form3 = new Form3();//Скрытие формы 2
         }
 
         private void Form2_Load(object sender, EventArgs e)
