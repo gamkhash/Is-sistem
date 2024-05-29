@@ -19,7 +19,7 @@ namespace Electronic_store
 
         private void Form3_Load(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_The_IP_of_the_electronic_store_DataSet.Orders_and_customers". При необходимости она может быть перемещена или удалена.
+          .
             this.orders_and_customersTableAdapter.Fill(this._The_IP_of_the_electronic_store_DataSet.Orders_and_customers);
 
         }
@@ -31,7 +31,7 @@ namespace Electronic_store
 
         private void Form3_Load_1(object sender, EventArgs e)
         {
-            // TODO: данная строка кода позволяет загрузить данные в таблицу "_The_IP_of_the_electronic_store_DataSet2.Marceting_material". При необходимости она может быть перемещена или удалена.
+          .
             this.marceting_materialTableAdapter.Fill(this._The_IP_of_the_electronic_store_DataSet2.Marceting_material);
 
         }
